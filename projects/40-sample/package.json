@@ -1,0 +1,15 @@
+{
+  "name": "@moriyama-es/sample-eti",
+  "version": "0.0.1",
+  "description": "コンソールに顔文字を表示するモジュール",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kazuhiro Moriyama",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "cool-ascii-faces": "^1.3.4"
+  }
+}
