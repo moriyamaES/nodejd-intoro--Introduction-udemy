@@ -10,6 +10,7 @@ var child = fork(path.join(__dirname, "child.js"), { execArgv: [] });
 // 親から子へメッセージ送信
 child.send({ hello: "message form parent." });
 
+
 // 子を終了
 child.on("close", (code) => {
   console.log(`child process exit whith code ${code}`);
